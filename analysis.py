@@ -4,7 +4,7 @@ import pandas as pd
 import shapely
 
 from main import delineate_wma
-from lib.utils import delineate_pysheds
+from delineation.utils import delineate_pysheds
 
 fdir_path = './hyd_na_dir_30s.tif'
 
